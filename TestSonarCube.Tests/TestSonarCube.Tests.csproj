@@ -18,6 +18,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TestSonarCube.Services\TestSonarCube.Services.csproj" />
+      <ProjectReference Include="..\TestSonarQube.Api\TestSonarQube.Api.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using TestSonarCube.Services;
+using TestSonarQube;
 
 namespace TestSonarCube.Tests;
 
@@ -10,6 +11,8 @@ public class UnitTest
     {
         var result = new TestService().TestSomething();
         Assert.False(result);
+        var result2 = new TestController().Test();
+        Assert.False(result2);
     }
     
     [Test]
@@ -17,6 +20,8 @@ public class UnitTest
     {
         var result = new TestService().TestSomething2();
         Assert.True(result);
+        var result2 = new TestController().Test2();
+        Assert.True(result2);
     }
     
     [Test]

@@ -6,26 +6,20 @@ public class TestService : ITestService
     {
         var a = 1;
         var b = a.ToString();
-        if (a.ToString() == b)
-            return false;
-        return true;
+        return a.ToString() != b;
     }
     
     public bool TestSomething2()
     {
         var a = 3;
         var b = a.ToString();
-        if (a.ToString().Equals(b))
-            return true;
-        return false;
+        return a.ToString().Equals(b);
     }
     
     public bool TestSomething3()
     {
         var a = 3;
         var b = a.ToString();
-        if (a.ToString().Equals(b))
-            return true;
-        return false;
+        return a.ToString().Equals(b);
     }
 }
