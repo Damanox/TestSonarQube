@@ -9,4 +9,9 @@ public class TestController: Controller
     {
         return new TestService().TestSomething();
     }
+    
+    public bool Test2()
+    {
+        return new TestService().TestSomething2();
+    }
 }

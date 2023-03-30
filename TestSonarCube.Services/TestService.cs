@@ -10,4 +10,13 @@ public class TestService : ITestService
             return false;
         return true;
     }
+    
+    public bool TestSomething2()
+    {
+        var a = 2;
+        var b = a.ToString();
+        if (a.ToString().Equals(b))
+            return true;
+        return false;
+    }
 }
