@@ -16,10 +16,13 @@ public class TestService : ITestService
         switch (a)
         {
             case 0:
+                b = "0";
                 break;
             default:
+                b = "";
                 break;
             case 1:
+                b = "1";
                 break;
         }
         return a.ToString().Equals(b);
