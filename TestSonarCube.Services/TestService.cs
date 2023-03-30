@@ -13,6 +13,15 @@ public class TestService : ITestService
     {
         var a = 3;
         var b = a.ToString();
+        switch (a)
+        {
+            case 0:
+                break;
+            default:
+                break;
+            case 1:
+                break;
+        }
         return a.ToString().Equals(b);
     }
     
