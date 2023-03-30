@@ -12,6 +12,7 @@ public class TestController: Controller
     
     public bool Test2()
     {
+        new TestService().TestSomething3();
         return new TestService().TestSomething2();
     }
 }
