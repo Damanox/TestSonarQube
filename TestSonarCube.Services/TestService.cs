@@ -13,7 +13,7 @@ public class TestService : ITestService
     
     public bool TestSomething2()
     {
-        var a = 2;
+        var a = 3;
         var b = a.ToString();
         if (a.ToString().Equals(b))
             return true;
